@@ -20,7 +20,7 @@ a.snake-link, a.snake-link:link, a.snake-link:visited {
 }
 
 a.snake-link:hover {
-  color: #FfFf54; 
+  color: #909090; 
 }
 
 .snake-pause-screen {
@@ -45,7 +45,7 @@ a.snake-link:hover {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
-    background-color: #FC5454;
+    background-color: #303030;
     padding: 8px;
     margin: 0px;
 }
@@ -59,18 +59,13 @@ a.snake-link:hover {
     background-repeat: no-repeat;
 }
 
-.snake-snakebody-alive {
-   background-image: url('./images/snakeblock.png');
-}
-.snake-snakebody-dead {
-   background-image: url('./images/deadblock.png');
-}
+
 
 .snake-food-block {
     margin: 0px;
     padding: 0px;
     background-color: #FF0000;
-    border: 0px solid #000080;
+    border: 0px solid #ffffff;
     position: absolute;
 }
 
@@ -78,8 +73,8 @@ a.snake-link:hover {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    background-color: #0000A8;
-    border: 0px solid #0000A8;
+    background-color: #606060;
+    border: 0px solid #606060;
 }
 
 .snake-game-container {
@@ -88,7 +83,7 @@ a.snake-link:hover {
     border-width: 0px;
     border-style: none;
     zoom: 1;
-    background-color: #FC5454;
+    background-color: #808080;
     position: relative;
 }
             
