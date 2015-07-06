@@ -317,7 +317,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             me.snakeTail.next = me.snakeHead;
             me.snakeHead.prev = me.snakeTail
             playingBoard.foodEaten();
-             growthIncr+=change;
+            
         };
         
         /**
@@ -930,6 +930,7 @@ SNAKE.Board = SNAKE.Board || (function() {
         me.foodEaten = function() {
             elmLengthPanel.innerHTML = "Length: " + mySnake.snakeLength;
             myFood.randomlyPlaceFood();
+             growthIncr+=change;
         };
         
         /**
