@@ -116,7 +116,6 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             playingBoard = config.playingBoard,
             myId = instanceNumber++,
             growthIncr = prompt("grow rate?"),
-            change = prompt("change rate?"),
             moveQueue = [], // a queue that holds the next moves of the snake
             currentDirection = 1, // 0: up, 1: left, 2: down, 3: right
             columnShift = [0, 1, 0, -1],
@@ -930,7 +929,6 @@ SNAKE.Board = SNAKE.Board || (function() {
         me.foodEaten = function() {
             elmLengthPanel.innerHTML = "Length: " + mySnake.snakeLength;
             myFood.randomlyPlaceFood();
-             growthIncr+=change;
         };
         
         /**
