@@ -315,9 +315,9 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             }
             me.snakeTail = me.snakeBody[index];
             me.snakeTail.next = me.snakeHead;
-            me.snakeHead.prev = me.snakeTail;
-            growthIncr+=change;
+            me.snakeHead.prev = me.snakeTail
             playingBoard.foodEaten();
+             growthIncr+=change;
         };
         
         /**
