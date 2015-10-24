@@ -116,6 +116,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             playingBoard = config.playingBoard,
             myId = instanceNumber++,
             growthIncr = prompt("At what rate would you like to grow?"),
+            if(growthIncr == null){growthIncr=1};
             moveQueue = [], // a queue that holds the next moves of the snake
             currentDirection = 1, // 0: up, 1: left, 2: down, 3: right
             columnShift = [0, 1, 0, -1],
